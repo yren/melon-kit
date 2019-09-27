@@ -5,8 +5,6 @@ type Feature string
 
 const (
 	SupportFeatureRun Feature = "SupportFeatureRun"
-	SupportFeatureWalk Feature = "SupportFeatureWalk"
-	SupportFeatureSwim Feature = "SupportFeatureSwim"
 	SupportFeatureFly Feature = "SupportFeatureFly"
 )
 
