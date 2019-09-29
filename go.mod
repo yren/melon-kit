@@ -12,6 +12,7 @@ require (
 	github.com/mitchellh/go-ps v0.0.0-20190716172923-621e5597135b // indirect
 	github.com/securego/gosec v0.0.0-20190912120752-140048b2a218 // indirect
 	github.com/shirou/gopsutil v0.0.0-20190901111213-e4ec7b275ada // indirect
+	github.com/shopspring/decimal v0.0.0-20190905144223-a36b5d85f337
 	github.com/sirupsen/logrus v1.4.2 // indirect
 	github.com/spf13/cobra v0.0.5 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
