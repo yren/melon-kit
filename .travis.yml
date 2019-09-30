@@ -40,3 +40,5 @@ notifications:
   slack:
     rooms:
     - exrcom:SDETqVaFBO6nWx9RXjOY5pUf#build-status
+  email:
+    - ren.yufei@outlook.com
