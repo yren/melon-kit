@@ -11,7 +11,7 @@ func TestNormalize(t *testing.T) {
 	var nancy Runner = pluto
 	fmt.Printf("nancy is %v\n", nancy)
 	fmt.Printf("nancy equal nil %v\n", nancy == nil)
-	var jerry Runner = nil
+	var jerry Runner
 	fmt.Printf("jerry is %v\n", jerry)
 	fmt.Printf("jerry equal nil %v\n", jerry == nil)
 
