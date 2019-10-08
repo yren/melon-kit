@@ -9,6 +9,10 @@ func TestNormalize(t *testing.T) {
 	var pluto *Dog
 	fmt.Printf("pluto is %v\n", pluto)
 	var nancy Runner = pluto
+	fmt.Printf("type of nancy: %T\n", nancy)
+	var jim Runner
+	fmt.Printf("type of jim: %T\n", jim)
+	fmt.Printf("type of pluto: %T\n", pluto)
 	fmt.Printf("nancy is %v\n", nancy)
 	fmt.Printf("nancy equal nil %v\n", nancy == nil)
 	var jerry Runner
