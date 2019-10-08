@@ -35,3 +35,10 @@ before_script:
 script:
   - golangci-lint run       # run a bunch of code checkers/linters in parallel
   - go test -v -race ./...  # Run all the tests with the race detector enabled
+
+notifications:
+  slack:
+    rooms:
+    - exrcom:SDETqVaFBO6nWx9RXjOY5pUf#build-status
+  email:
+    - ren.yufei@outlook.com
