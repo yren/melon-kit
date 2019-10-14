@@ -7,6 +7,7 @@ require (
 	github.com/fatih/color v1.7.0 // indirect
 	github.com/go-critic/go-critic v0.3.5-0.20190904082202-d79a9f0c64db // indirect
 	github.com/golangci/golangci-lint v1.18.0 // indirect
+	github.com/magiconair/properties v1.8.0
 	github.com/matoous/godox v0.0.0-20190910121045-032ad8106c86 // indirect
 	github.com/mattn/go-colorable v0.1.2 // indirect
 	github.com/mitchellh/go-ps v0.0.0-20190716172923-621e5597135b // indirect
