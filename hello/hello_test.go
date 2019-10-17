@@ -1,6 +1,10 @@
 package main
 
-import "testing"
+import (
+	"fmt"
+	"strings"
+	"testing"
+)
 
 func TestHello(t *testing.T) {
 	assertMessage := func(t *testing.T, got, want string) {
@@ -21,4 +25,12 @@ func TestHello(t *testing.T) {
 		want := "hello, world"
 		assertMessage(t, got, want)
 	})
+}
+
+func TestSplit(t *testing.T) {
+	latlng := ""
+	splitted := strings.Split(latlng, ",")
+	if len(splitted) != 2 {
+		fmt.Println(len(splitted))
+	}
 }
