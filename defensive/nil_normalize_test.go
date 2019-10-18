@@ -7,18 +7,18 @@ import (
 
 func TestNormalize(t *testing.T) {
 	var pluto *Dog
-	fmt.Printf("pluto is %v\n", pluto)
+	fmt.Printf("pluto type %T\n", pluto)
 	var nancy Runner = pluto
-	fmt.Printf("type of nancy: %T\n", nancy)
+	fmt.Printf("nancy type %T\n", nancy)
 	var jim Runner
-	fmt.Printf("type of jim: %T\n", jim)
-	fmt.Printf("type of pluto: %T\n", pluto)
-	fmt.Printf("nancy is %v\n", nancy)
+	fmt.Printf("jim type %T\n", jim)
+	fmt.Printf("nancy value %v\n", nancy)
 	fmt.Printf("nancy equal nil %v\n", nancy == nil)
 	var jerry Runner
-	fmt.Printf("jerry is %v\n", jerry)
+	fmt.Printf("jerry type %v\n", jerry)
 	fmt.Printf("jerry equal nil %v\n", jerry == nil)
 
+	// normalize nancy from type nil to normal nil
 	v, isDog := nancy.(*Dog)
 	if isDog {
 		if v == nil {
