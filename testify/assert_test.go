@@ -11,4 +11,5 @@ func TestSomething(t *testing.T) {
 
 	var obj []int
 	assert.Nil(t, obj)
+
 }
