@@ -1,4 +1,4 @@
-package flag
+package flag2
 
 const (
 	// EnableRun ...
